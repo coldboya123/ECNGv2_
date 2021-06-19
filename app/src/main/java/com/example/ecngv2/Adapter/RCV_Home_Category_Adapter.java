@@ -31,7 +31,7 @@ public class RCV_Home_Category_Adapter extends RecyclerView.Adapter<RCV_Home_Cat
     @NonNull
     @Override
     public Holder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(context).inflate(com.example.ecngv2.R.layout.custom_rcv_category, parent, false);
+        View v = LayoutInflater.from(context).inflate(R.layout.custom_rcv_category, parent, false);
         return new Holder(v);
     }
 
